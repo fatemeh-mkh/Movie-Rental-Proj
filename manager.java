@@ -30,8 +30,8 @@ public class manager {
                 String manager_last_name = resultSet.getString("manager_last_name").trim();
 
                 String output1 = " first_name : " + first_name + " || " + " manager_last_name : " + manager_last_name + " || " + " email : " + email2;
-               // graphic gr = new graphic();
-                //gr.graphicFunc(output1, RED);
+                graphic gr = new graphic();
+                gr.graphicFunc(output1, RED);
                 System.out.println(output1);
 
                 System.out.println("your login is successfully :)");

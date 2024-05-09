@@ -26,8 +26,8 @@ public class customer {
                 first_name = resultSet.getString("first_name").trim();
 
                 String output1 = " first_name : " + first_name + " || " + " email : " + email2;
-                //graphic gr = new graphic();
-              //  gr.graphicFunc(output1, RED);
+                graphic gr = new graphic();
+                gr.graphicFunc(output1, RED);
                 System.out.println(" first_name : " + first_name + " || " + " email : " + email2);
 
                 System.out.println("your login is successfully :)");
